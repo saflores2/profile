@@ -1,0 +1,85 @@
+body {
+  background-color: beige;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  color: rgb(220, 220, 220);
+  line-height: 1.6;
+}
+
+h2 {
+  color: rgb(200, 200, 200);
+}
+
+p {
+  color: rgb(240, 240, 240);
+}
+
+a {
+  color: rgb(100, 160, 220);
+  text-decoration: none;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 150px;
+}
+
+.container {
+  width: 800px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  text-align: center;
+}
+
+.btn-link {
+  background-color: rgb(89, 130, 177);
+  color: rgb(190, 214, 236);
+  padding: 10px;
+  font-weight: bold;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+  color: rgb(48, 30, 206)
+}
+
+.dark-card {
+  background-color: rgb(45, 54, 92);
+  padding: 30px;
+  margin: 40px;
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1)
+}
+
+.list-inline {
+  display: inline-block;
+  padding: 0px 40px;
+}
+
+.list-inline li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 40px;
+  font-size: 40px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
